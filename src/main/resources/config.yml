@@ -1,0 +1,1 @@
+kick_command: 'kick [user] Stop it. [kicks]'ban_command: 'ban [user] You have been banned for being excessively annoying.'reset_command: 'pardon [user]'spam:  lines: 3  seconds: 1  kicks: 3  duplicates: 3
