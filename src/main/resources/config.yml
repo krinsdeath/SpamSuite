@@ -1,1 +1,27 @@
-kick_command: 'kick [user] Stop it. [kicks]'ban_command: 'ban [user] You have been banned for being excessively annoying.'reset_command: 'pardon [user]'spam:  lines: 3  seconds: 1  kicks: 3  duplicates: 3
+# SpamSuite v1.0
+# by krinsdeath
+# ---
+# [user]: Evaluates to the offending player
+# [kicks]: Evaluates to the number of kicks / total kicks before ban for the specified user
+# ---
+# debug: Toggles additional (debugger) messages in the server.log
+# ---
+# reset_command: Specifies the command to execute when resetting a user's infractions
+# ban_command: Specifies the command to execute on the server when the kick threshold has been reached
+# kick_command: Specifies the command to execute on the server when the spam threshold has been reached
+# ---
+# spam:
+#   lines: number of lines before the user is kicked (default is 3 lines of text)
+#   seconds: number of seconds allowed before max lines is met and user is kicked (default is 1)
+#   kicks: number of kicks before the user is banned (default is 3 kicks until a ban)
+#   duplicates: number of duplicate messages before user is kicked (default is 3)
+kick_command: kick [user] Stop it. [kicks]
+ban_command: ban [user] You have been banned for being excessively annoying.
+reset_command: pardon [user]
+spam:
+  lines: 3
+  seconds: 2
+  kicks: 3
+  duplicates: 3
+spammers: 
+  krinsdeath: 0
